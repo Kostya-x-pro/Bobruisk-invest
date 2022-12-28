@@ -50,6 +50,16 @@ img {
   background-color: #c99e61;
 }
 
+.title {
+  padding: 30px 0 40px;
+  font-family: "Josefin";
+  font-size: 3em;
+  text-align: center;
+  color: black;
+  text-shadow: 2px 2px 3px #fff;
+}
+
+
 /* atlas */
 .atlas {
   width: 100%;
@@ -335,15 +345,6 @@ img {
   border-bottom: 1px solid rgba(0, 0, 0, 0.25);
 }
 
-.title {
-  padding: 30px 0 40px;
-  font-family: "Josefin";
-  font-size: 3em;
-  text-align: center;
-  color: black;
-  text-shadow: 2px 2px 3px #fff;
-}
-
 .offer__list {
   display: flex;
   flex-wrap: wrap;
@@ -397,15 +398,15 @@ img {
   transform: scale(1.05);
 }
 
-/* section area */ /* !!! (Додумать стилизацию) */
+/* section area */
 .area {
   padding: 40px 0;
 
   background: url('./img/Rectangle.png'), linear-gradient(0deg, rgba(192, 192, 190, 1) 0%, rgba(218, 208, 196, 1) 48%, rgba(218, 203, 164, 1) 100%);
   background-size: cover;
   background-position: top;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
   background-attachment: fixed;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
 }
 
 /* acordion */
