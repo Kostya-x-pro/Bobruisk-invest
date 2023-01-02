@@ -1,0 +1,79 @@
+@media (max-width: 1200px) {
+  .atlas,
+  .why,
+  .offer,
+  .area,
+  .realty,
+  .contacts,
+  .footer {
+    width: 130%;
+  }
+}
+
+@media (max-width: 992px) {
+  .atlas,
+  .why,
+  .offer,
+  .area,
+  .realty,
+  .contacts,
+  .footer {
+    width: 157%;
+  }
+
+  .offer__item {
+    flex: 0 1 49%;
+  }
+
+  .offer__img {
+    height: 400px;
+  }
+}
+
+@media (max-width: 768px) { 
+  .atlas,
+  .why,
+  .offer,
+  .area,
+  .realty,
+  .contacts,
+  .footer {
+    width: 210%;
+  }
+
+
+}
+
+@media (max-width: 576px) { 
+  .atlas,
+  .why,
+  .offer,
+  .area,
+  .realty,
+  .contacts,
+  .footer {
+    width: 400%;
+  }
+
+  .nav__list {
+    display: none;
+  }
+
+  .offer__item {
+    flex: 0 1 99%;
+  }
+
+  .offer__img {
+    height: auto;
+  }
+
+  .realty__list {
+    flex-direction: column;
+  }
+
+  .realty__item {
+    flex: 0 1 5%;
+  }
+
+}
+
