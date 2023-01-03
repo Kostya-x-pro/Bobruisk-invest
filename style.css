@@ -59,6 +59,22 @@ img {
   text-shadow: 2px 2px 3px #fff;
 }
 
+/* burger menu js */
+.burger {
+  display: none;
+  position: fixed;
+  top: 10px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  background-image: url(./img/icons/burger.svg);
+  background-size: cover;
+  cursor: pointer;
+}
+
+  .nav__list.is-active {
+    transform: none;
+  }
 
 /* atlas */
 .atlas {
